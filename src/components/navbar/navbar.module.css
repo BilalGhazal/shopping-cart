@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.storeName {
+    font-size: 2rem;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+    list-style-type: none;
+
+}
+
+.navItem:hover, .navItem.active {
+    text-decoration: underline;
+}
+
+.bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+
+.bttn:hover {
+    cursor: pointer;
+    
+    
+}
+
