@@ -31,8 +31,10 @@
 }
 
 .bttn:hover {
-    cursor: pointer;
-    
-    
+    cursor: pointer;    
+}
+
+.shoppingCartCounter {
+    font-size: 1rem;
 }
 
