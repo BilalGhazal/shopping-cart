@@ -1,0 +1,24 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTitle {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
