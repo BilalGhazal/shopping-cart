@@ -1,0 +1,56 @@
+.image {
+    max-width: 200px;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 2rem;
+}
+
+.itemContainer {
+    max-width: 200px;
+    border: black solid 2px;
+    background-color: white;
+    padding: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+
+}
+
+.controls > input {
+    width: 3rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+}
+
+.controls > button {
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.controls > button:hover {
+    cursor: pointer;
+}
+
+.addToCart {
+    background-color: rgb(241, 241, 240);
+    outline: none;
+    border: 1px solid;
+    font-family: inherit;
+    margin-top: 10px;
+}
+
+.addToCart:hover {
+    cursor: pointer;
+}
